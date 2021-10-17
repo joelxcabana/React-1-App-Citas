@@ -69,12 +69,12 @@ const Formulario = ({crearCita}) => {
                     onChange={handleChange}
                     value={mascota}
                 />
-                <label>Nombre Duenio</label>
+                <label>Nombre Dueño</label>
                 <input
                     type="text"
                     name="propietario"
                     className="u-full-width"
-                    placeholder="Nombre Duenio de la Mascota"
+                    placeholder="Nombre Dueño de la Mascota"
                     onChange={handleChange}
                     value={propietario}
                 />
